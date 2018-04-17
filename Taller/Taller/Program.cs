@@ -6,17 +6,23 @@ using System.Windows.Forms;
 
 namespace Taller
 {
-    static class Program
+    public class Program
     {
         /// <summary>
         /// Punto de entrada principal para la aplicación.
         /// </summary>
+        ///
+        public static void funcion3()
+        {
+            System.Console.WriteLine("Ta que toi triste kaumza");
+        }
         [STAThread]
-        static void Main()
+        public static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            //Application.Run(new Form1());
+            funcion3();
         }
     }
 }
