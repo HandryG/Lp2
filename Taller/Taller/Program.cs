@@ -12,10 +12,19 @@ namespace Taller
         /// Punto de entrada principal para la aplicación.
         /// </summary>
         ///
+		
+		
+		
+		
         public static void funcion3()
         {
             System.Console.WriteLine("Ta que toi triste kaumza");
         }
+		
+		
+		
+		
+		
         [STAThread]
         public static void Main()
         {
